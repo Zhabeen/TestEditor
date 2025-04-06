@@ -1,0 +1,44 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.paramContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.paramNames {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.paramInput {
+  width: 50%;
+  padding: 5px;
+  font-size: 14px;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
